@@ -1,9 +1,10 @@
 import React from 'react';
+import Title from './components/Title';
 
 function Header() {
-  let title = 'My Title';
+
   return (
-    <div>This is my {title}</div>
+    <Title/>
   );
 }
 
