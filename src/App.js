@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from './Header';
+import Title from './components/Title';
 import Content from './Content';
+import Paragraph from './components/Paragraph';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Title />
       <Content />
+      <Paragraph />
 
       <section className="section-2">
         <h1>Second Section</h1>
