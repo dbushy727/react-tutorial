@@ -16,6 +16,10 @@ function App() {
       <section className="section-3">
         <h1>Third Section</h1>
       </section>
+      <hr />
+      <section className="section-3">
+        <h1>Fourth Section</h1>
+      </section>
     </div>
   );
 }
